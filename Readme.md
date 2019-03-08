@@ -48,3 +48,34 @@ https://tableless.com.br/o-que-nodejs-primeiros-passos-com-node-js/
 
 Escreva um programa Hello World Javascript e outro Typescriot usando uma ferramenta de desenvolvimento
 https://tableless.com.br/o-que-nodejs-primeiros-passos-com-node-js/
+
+##Aula 05 08/05/2019
+
+TypeScript suporta todos os tipos básicos de dados que o JavaScript, assim como um adicional para enumeração
+TypeScript também suporta tipagem da variável, forçando que ela aceite apenas o especificado, para isso seguimos a seguinte regra:
+
+var nomeDaVariavel: tipo = valor;
+
+tipos primitivos simples:
+    String - valores do tipo texto
+    Number - qualquer número (ponto flutuante também)
+    Boolean - true/false
+
+tipos primitivos compostos:
+    Array - uma coleção de valores.
+        var persons: string[] = ['Erik', 'Fernanda'];
+        var persons: Array<string> = ['Erik', 'Fernanda'];
+
+    Se você for usar vários tipos de valores dentro do array vai poder usar o tipo any, vou falar dele a logo mais.
+        var persons: any[] = ['Erik', 30, true];
+
+    Enum - o tipo enum (enumeração) é ideal para trabalhar com listas
+        enum Color {Red, Green, Blue};
+        var c: Color = Color.Green;
+
+        console.log(c);
+
+    Any - tipo que aceita qualquer coisa
+    Void - nenhum tipo de dados
+
+
