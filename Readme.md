@@ -79,3 +79,13 @@ tipos primitivos compostos:
     Void - nenhum tipo de dados
 
 
+Link para playground typescript
+https://bit.ly/2EGIf3h
+
+
+    Práticas
+
+1.Para sua linguagem, pesquise outras conversões de tipos e escreva um programa com exemplos.
+
+https://bit.ly/2HhE2qu
+

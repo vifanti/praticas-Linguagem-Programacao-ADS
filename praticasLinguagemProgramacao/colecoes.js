@@ -13,8 +13,4 @@ var Color;
     Color[Color["Green"] = 1] = "Green";
     Color[Color["Blue"] = 2] = "Blue";
 })(Color || (Color = {}));
-var c1 = Color.Green;
-var c0 = Color.Red;
-var c2 = Color.Blue;
-
-console.log(c0, c1, c2);
+console.log(Color.Red, Color.Green, Color.Blue);
