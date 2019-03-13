@@ -85,7 +85,13 @@ https://bit.ly/2EGIf3h
 
     Práticas
 
-1.Para sua linguagem, pesquise outras conversões de tipos e escreva um programa com exemplos.
+1. Para sua linguagem, pesquise outras conversões de tipos e escreva um programa com exemplos.
 
 https://bit.ly/2HhE2qu
+
+2. Para sua linguagem, experimente os exemplos de coleções apresentados e explore outros exemplos.
+
+https://bit.ly/2T3OOCa
+
+3. Está com o Augusto
 
