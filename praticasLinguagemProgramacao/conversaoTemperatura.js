@@ -14,7 +14,7 @@ var leitor = readline.createInterface({
 });
 
 leitor.question("Informe a temperatura em Graus Celsius?\n", function(answer) {
-    var celsius = answer;
+    celsius = answer;
     leitor.close();
     farenheit = 1.8 * celsius + 32;
     console.log(farenheit);
