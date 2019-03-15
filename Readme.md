@@ -95,6 +95,8 @@ https://bit.ly/2T3OOCa
 
 3. Para sua linguagem, desenvolva exemplos de código usando as duas categorias básicas de fluxos de controle de modo a justificar seu uso.
 
+https://bit.ly/2CluAxX
+
 4. Para sua linguagem, identifique a pratica recomendada de Input e Output de informações usando o teclado e o console.
 
 Versão de entrada e saída do nodejs server: https://bit.ly/2CdsEaX
@@ -111,9 +113,9 @@ https://bit.ly/2VXdbmM
 lhe contraram para desenvolver o programa que calculará os reajustes.
 
 Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte
-critério, baseado no salário atual:•salários até R$ 280,00 (incluindo) :
+critério, baseado no salário atual:
 
-aumento de 20%
+salários até R$ 280,00 (incluindo) : aumento de 20%
 salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
 salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
 salários de R$ 1500,00 em diante : aumento de 5%
@@ -124,10 +126,6 @@ o salário antes do reajuste;
 o percentual de aumento aplicado;
 o valor do aumento;
 o novo salário, após o aumento.
-
-
-
-4. Atualização de Salário
 
 https://goo.gl/2EGUq6
 
