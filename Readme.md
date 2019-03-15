@@ -93,5 +93,35 @@ https://bit.ly/2HhE2qu
 
 https://bit.ly/2T3OOCa
 
-3. Está com o Augusto
+3. Para sua linguagem, desenvolva exemplos de código usando as duas categorias básicas de fluxos de controle de modo a justificar seu uso.
+
+4. Para sua linguagem, identifique a pratica recomendada de Input e Output de informações usando o teclado e o console.
+
+Versão de entrada e saída do nodejs server: https://bit.ly/2CdsEaX
+Versão de entrada e saída navegador: https://bit.ly/2VX2hNR
+
+
+5. A conversão de graus Celsius para Farenheit pode ser obtida por: TF = 1.8 * TC + 32. Fazer um programa que leia um valor qualquer em graus Celsius e calcule e escreva o valor convertido em graus Farenheit. Apresente as mensagens adequadas de entrada e saída.
+
+Observação: Para testar se a sua resposta está correta saiba que 100 Celsius=212 Farenheit.
+
+https://bit.ly/2VXdbmM
+
+6. As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e
+lhe contraram para desenvolver o programa que calculará os reajustes.
+
+Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte
+critério, baseado no salário atual:•salários até R$ 280,00 (incluindo) :
+
+aumento de 20%
+salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
+salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+salários de R$ 1500,00 em diante : aumento de 5%
+
+Após o aumento ser realizado, informe na tela:
+
+o salário antes do reajuste;
+o percentual de aumento aplicado;
+o valor do aumento;
+o novo salário, após o aumento.
 
