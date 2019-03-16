@@ -129,3 +129,8 @@ o novo salário, após o aumento.
 
 https://goo.gl/2EGUq6
 
+##Aula 06 15/03
+
+1. Para sua linguagem, desenvolva uma função fatorial que recebe um número e retorna um array contendo cada passo os valores fatorial do número até 0. Obtenha o valor via Input e chame essa função. Imprima o resultado no final. Exemplo:
+5 => [120, 24, 6, 2, 1, 1]
+
