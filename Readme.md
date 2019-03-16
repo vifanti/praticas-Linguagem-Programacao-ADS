@@ -3,6 +3,10 @@ Repositório de trabalhos referente a linguagem JavaScript do grupo Augusto, Giu
 Gramática léxica e palavras reservadas
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Lexical_grammar
 
+TRADUZIR TYPESCRIPT PARA JAVASCRIPT
+instalar o npm
+comando "tsc nomearquivo.ts"
+
 ##Aula 04
 
 Principais versões do Javascript e Typescript
@@ -49,7 +53,7 @@ https://tableless.com.br/o-que-nodejs-primeiros-passos-com-node-js/
 Escreva um programa Hello World Javascript e outro Typescriot usando uma ferramenta de desenvolvimento
 https://tableless.com.br/o-que-nodejs-primeiros-passos-com-node-js/
 
-##Aula 05 08/05/2019
+##Aula 05 08/03
 
 TypeScript suporta todos os tipos básicos de dados que o JavaScript, assim como um adicional para enumeração
 TypeScript também suporta tipagem da variável, forçando que ela aceite apenas o especificado, para isso seguimos a seguinte regra:
