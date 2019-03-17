@@ -36,12 +36,12 @@ class quadrado extends forma {
     }
 }
 
-let shapes: forma[];
-shapes = new Array();
-shapes.push(new circulo(3));
-shapes.push(new circulo(5));
-shapes.push(new quadrado(4));
+let formas: forma[];
+formas = new Array();
+formas.push(new circulo(3));
+formas.push(new circulo(5));
+formas.push(new quadrado(4));
 
-shapes.forEach(shapeItem => {
-    console.log(shapeItem.nome + ": " + shapeItem.area());
+formas.forEach(itemFormas => {
+    console.log(itemFormas.nome + ": " + itemFormas.area());
 });

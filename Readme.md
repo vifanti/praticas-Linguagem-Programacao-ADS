@@ -3,6 +3,8 @@ Repositório de trabalhos referente a linguagem JavaScript do grupo Augusto, Giu
 Gramática léxica e palavras reservadas
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Lexical_grammar
 
+https://andrebtoe.com/category/typescript/
+
 TRADUZIR TYPESCRIPT PARA JAVASCRIPT
 instalar o npm
 comando "tsc nomearquivo.ts"
@@ -139,3 +141,7 @@ https://goo.gl/2EGUq6
 5 => [120, 24, 6, 2, 1, 1]
 
 https://bit.ly/2Y3H0ny
+
+2. Para a prática anterior, refaça utilizando funções anônimas.
+
+https://bit.ly/2HwmpDx

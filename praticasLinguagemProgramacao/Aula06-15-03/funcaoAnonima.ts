@@ -3,7 +3,7 @@ contendo cada passo os valores fatorial do número até 0. Obtenha o valor via I
 essa função. Imprima o resultado no final. Exemplo:
 5 => [120, 24, 6, 2, 1, 1]*/
 
-function fatorial( numero: number ): number[] {
+let fatorial = (( numero: number ): number[] => {
     let resultado: number[] = [];
     let repeticao: number;
     let i: number = 0;
@@ -18,6 +18,6 @@ function fatorial( numero: number ): number[] {
         i++;
     }
     return resultado;
-}
+});
 
 console.log(fatorial(5));
