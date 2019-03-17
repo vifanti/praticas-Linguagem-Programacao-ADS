@@ -7,7 +7,7 @@ TRADUZIR TYPESCRIPT PARA JAVASCRIPT
 instalar o npm
 comando "tsc nomearquivo.ts"
 
-##Aula 04
+##Aula 04 01/03
 
 Principais versões do Javascript e Typescript
 https://www.w3schools.com/js/js_versions.asp
@@ -138,3 +138,4 @@ https://goo.gl/2EGUq6
 1. Para sua linguagem, desenvolva uma função fatorial que recebe um número e retorna um array contendo cada passo os valores fatorial do número até 0. Obtenha o valor via Input e chame essa função. Imprima o resultado no final. Exemplo:
 5 => [120, 24, 6, 2, 1, 1]
 
+https://bit.ly/2Y3H0ny
