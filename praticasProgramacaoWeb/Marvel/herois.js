@@ -1,35 +1,35 @@
-function getMarvelResponse() {
-// you will also have to setup the referring domains on your marvel developer portal
-var PRIV_KEY = "2183109a47a13c37e86934ab9867e747b729a115";
-var PUBLIC_KEY = "8ca0518c7fafefd3f0dc5eee818d10e1";
-
-function getMarvelResponse() {
-
-  // you need a new ts every request                                                                                    
-  var ts = new Date().getTime();
-  var hash = CryptoJS.MD5(ts + PRIV_KEY + PUBLIC_KEY).toString();
-  
-  // the api deals a lot in ids rather than just the strings you want to use
-  var characterId = '1009718'; // wolverine                                                                             
 
 
-  var url = 'http://gateway.marvel.com:80/v1/public/comics';
-
-  console.log(url);
-  $.getJSON(url, {
-    ts: ts,
-    apikey: PUBLIC_KEY,
-    hash: hash,
-    characters: characterId
+$(document).ready(function () {
+    var marvelAPI = 'http://gateway.marvel.com/v1/public/characters';
+    var ts = new Date().getTime();
+    var PRIV_KEY = '2183109a47a13c37e86934ab9867e747b729a115';
+    var PUBLIC_KEY = '8ca0518c7fafefd3f0dc5eee818d10e1';
+    var hash = CryptoJS.MD5(ts + PRIV_KEY + PUBLIC_KEY).toString();
+    
+    $.getJSON( marvelAPI, {
+        ts: ts,
+        apikey: PUBLIC_KEY,
+        hash: hash
     })
-    .done(function(data) {
-      // sort of a long dump you will need to sort through
-      console.log(data);
-      document.getElementById("listaHerois").value = data;
-    })
-    .fail(function(err){
-      // the error codes are listed on the dev site
-      console.log(err);
+    .done(function( response ) {
+        var results = response.data.results;
+        var resultsLen = results.length;
+        for(var i=0; i<resultsLen; i++){
+            if(results[i].name.length > 0) {
+                var output = '<option value = "' + i + '">' + results[i].name + '</option>';
+                $('#resultado').append(output);
+            }
+            
+        }
+        
+        
+        $("#resultado").change(function(){
+            // Aqui você tem o value selecionado assim que o usuário muda o option
+            var idHeroi = jQuery(this).val();
+            var dados = '<div class="added"><p><img src=" ' + results[idHeroi].thumbnail.path + '.' +results[idHeroi].thumbnail.extension + '"></p><P>'+ results[idHeroi].name +'</p><p>'+ results[idHeroi].description +'</p></div>';
+            $('.added').remove();
+            $('#dadosHeroi').append(dados)
+        });
     });
-};
-}
+});
