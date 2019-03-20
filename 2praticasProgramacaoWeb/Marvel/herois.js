@@ -12,6 +12,7 @@ $(document).ready(function () {
         apikey: PUBLIC_KEY,
         hash: hash
     })
+
     .done(function( response ) {
         var results = response.data.results;
         var resultsLen = results.length;
