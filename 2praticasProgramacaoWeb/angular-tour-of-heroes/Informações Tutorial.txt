@@ -1,0 +1,12 @@
+Pré Requisitos:
+    Node.js versão 8.x or 10.x.
+    npm packages
+    Angular Comand Line 
+        npm install -g @angular/cli
+
+Criar um Workspace e um app inicial
+    ng new nome-aplicativo
+
+Rodar app Angular
+    ng serve --open <- Open é para abiri o navegador
+
