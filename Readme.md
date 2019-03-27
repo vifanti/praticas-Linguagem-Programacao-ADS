@@ -145,3 +145,19 @@ https://bit.ly/2Y3H0ny
 2. Para a prática anterior, refaça utilizando funções anônimas.
 
 https://bit.ly/2HwmpDx
+
+##Aula 07 22/03
+
+1. Escreva exemplos o uso de diferentes escopos citados aqui
+
+https://goo.gl/YvDLzp
+
+2. Pesquise métodos de gerenciamento de memória
+
+https://goo.gl/Ea3AC3
+
+3. Pesquise ao menos 2 ferramentas que permitem fazer análise de código e calculo de métricas
+
+https://goo.gl/AdWygB
+
+##Aula 08 29/03
