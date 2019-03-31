@@ -11,7 +11,8 @@ const bodyParser = require('body-parser')
 const app = express()
 const MongoClient = require('mongodb').MongoClient;
 const ObjectId = require('mongodb').ObjectID;
-const uri = "mongodb://vifanti:Fantinatto1995@crud-nodejs-shard-00-00-1qiou.mongodb.net:27017,crud-nodejs-shard-00-01-1qiou.mongodb.net:27017,crud-nodejs-shard-00-02-1qiou.mongodb.net:27017/test?ssl=true&replicaSet=crud-nodejs-shard-0&authSource=admin&retryWrites=true";
+
+const uri = "mongodb+srv://vifanti:280695@crud-nodejs-vf8hk.mongodb.net/test?retryWrites=true";
 
 //conecta no banco de dados e inicia o servidor na porta 3000
 MongoClient.connect(uri, { useNewUrlParser: true }, (err, client) => {
