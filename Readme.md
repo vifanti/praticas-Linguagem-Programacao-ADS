@@ -81,8 +81,8 @@ tipos primitivos compostos:
 
         console.log(c);
 
-    Any - tipo que aceita qualquer coisa
-    Void - nenhum tipo de dados
+    Any - é um tipo que aceita qualquer coisa
+    Void - é nenhum tipo de dados
 
 
 Link para playground typescript
