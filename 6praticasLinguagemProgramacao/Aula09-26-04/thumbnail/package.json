@@ -4,7 +4,7 @@
   "description": "API que recebe o link de uma imagem e gera um thumbnail",
   "main": "dist/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "tsc",
     "dev": "ts-node ./lib/server.ts",
     "start": "nodemon ./dist/server.js",
@@ -19,7 +19,12 @@
     "mongoose": "^5.5.5",
     "nodemon": "^1.19.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vifanti/JavaScript.git"
