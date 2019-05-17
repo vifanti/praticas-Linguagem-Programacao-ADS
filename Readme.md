@@ -1,4 +1,36 @@
-Repositório de trabalhos referente a linguagem JavaScript do grupo Augusto, Giuseppe, Vinicius e Willian
+Repositório de atividades e trabalhos das aulas de Linguagem de Programação do grupo Augusto, Giuseppe, Vinicius e Willian.
+
+Linguagem sorteada: Typescript
+
+## Aula 01 08/02/2019 #################################################################
+
+[Prática]
+Faça um algoritmo que leia as 3 notas de um aluno e calcule a média final deste aluno. Considerar que a média é ponderada e que o peso das notas é: 3,3 e 4, respectivamente.
+Escreva este mesmo algoritmo em pseudocódigo.
+
+[Prática]
+Faça um algoritmo que leia uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. A fórmula de conversão é: F = (9 * C + 160) / 5, na qual F é a temperatura em Fahrenheit e C é a temperatura em Celsius; 
+Escreva este mesmo algoritmo em pseudocódigo.
+
+## Aula 02 22/02/2019 #################################################################
+
+[Prática]
+Para cada linguagem foco, definir:
+Paradigmas de Programação
+Tipo da linguagem
+Compilada X Interpretada
+Fortemente X Fracamente Tipada
+Linguagem Script X Linguagem Programação
+Principais aplicações: Web, IoT, Aplicações Desktop
+Exemplos de uso
+
+## Aula 03 15/02/2019 #################################################################
+
+[Prática]
+Para as linguagens foco, pesquisar sintaxe e semântica.
+Palavras reservadas,
+Literais,
+Operadores, etc.
 
 Gramática léxica e palavras reservadas
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Lexical_grammar
@@ -9,7 +41,12 @@ TRADUZIR TYPESCRIPT PARA JAVASCRIPT
 instalar o npm
 comando "tsc nomearquivo.ts"
 
-##Aula 04 01/03
+##Aula 04 01/03/2019 #################################################################
+
+[Prática]
+Listar principais versões  do Javascript e Typescript
+Para cada versão, listar conjunto de ferramentas de desenvolvimento.
+Identificar diferenças entre as principais versões da linguagem Javascript e Typescript
 
 Principais versões do Javascript e Typescript
 https://www.w3schools.com/js/js_versions.asp
@@ -49,11 +86,18 @@ PRINCIPAIS FERRAMENTAS
 Identificar diferenças entre as principais versões da linguagem Javascript e Typescript
 https://imasters.com.br/desenvolvimento/es2018-finalmente-saiu-o-que-tem-de-bom
 
+[Prática]
 Descubra a estrutura mínima necessária para escrever o código de um programa para NodeJS
 https://tableless.com.br/o-que-nodejs-primeiros-passos-com-node-js/
 
 Escreva um programa Hello World Javascript e outro Typescriot usando uma ferramenta de desenvolvimento
 https://tableless.com.br/o-que-nodejs-primeiros-passos-com-node-js/
+*Ver pasta Aula04-01-03
+
+[Prática]
+Compilar o programa Typescript para ES6+
+
+Usar NodeJS para executar os códigos Javascript (original e compilado a partir do Typescript)
 
 ##Aula 05 08/03
 

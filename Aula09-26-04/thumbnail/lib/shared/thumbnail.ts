@@ -1,17 +1,11 @@
-export class Thumbnail {
+const thumbnail: any = async function (imageUrl: string): Promise<string> {
+
+    const imageThumbnail = require('image-thumbnail');
+    let options = { percentage: 25, responseType: 'base64' }
+
+    const thumbnail = await imageThumbnail({ uri: imageUrl }, options);
+    return thumbnail;
     
-    public async getThumbnail (url: any) {                
-                
-        
-        const imageThumbnail = require('image-thumbnail');
-        let options = { responseType: 'base64' }
-        
-        try {
-            const thumbnail = await imageThumbnail({ uri: url }, options);
-            return thumbnail;
-        } catch (err) {
-            console.error(err);
-        }
-        
-    }
-}
+};
+
+export default thumbnail;

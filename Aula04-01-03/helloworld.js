@@ -11,4 +11,4 @@ var Student = /** @class */ (function () {
     return Student;
 }());
 var user = new Student("Jane", "M.", "User");
-document.body.innerHTML = user.fullName;
+console.log(user.fullName);

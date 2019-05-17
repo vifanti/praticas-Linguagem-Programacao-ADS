@@ -12,4 +12,4 @@ class Student {
 
 let user = new Student("Jane", "M.", "User");
 
-document.body.innerHTML = user.fullName;
+console.log(user.fullName);
